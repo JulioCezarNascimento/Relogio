@@ -1,21 +1,19 @@
-body{
+body {
     background-color: darkgray;
 }
 
-main{
+main {
     width: 100%;
     height: 100vh;
-    justify-content: center;
-    align-self: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-span{
+.clock-element {
     font-size: 50px;
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
+    background-color: rgb(150, 228, 228);
 }
-
-#hour,#minute,#second{
-    background-color: rgb(150, 228, 228);}
